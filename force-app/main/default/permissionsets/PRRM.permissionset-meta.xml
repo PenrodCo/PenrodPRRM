@@ -82,11 +82,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>CareProviderSearchableField.Migration_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>CareProviderSearchableField.NationalProviderIdentifier</field>
         <readable>true</readable>
     </fieldPermissions>
