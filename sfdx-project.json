@@ -1,12 +1,26 @@
 {
+  "sourceApiVersion": "57.0",
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "PenrodPRRM",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+      "dependencies": [
+        {
+          "package": "HealthCloud@241.1.0.0"
+        },
+        {
+      "package": "Penrod HC Foundations@0.1.0-2"
+        }
+      ]
     }
   ],
-  "name": "PenrodPRRM",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "56.0"
+  "packageAliases": {
+    "HealthCloud@241.1.0.0": "04t4W000002V1qA",
+    "Penrod HC Foundations@0.1.0-2": "04tDn000000eLO6IAM",
+    "PenrodPRRM": "0HoDn000000oLyTKAU"
+  }
 }
