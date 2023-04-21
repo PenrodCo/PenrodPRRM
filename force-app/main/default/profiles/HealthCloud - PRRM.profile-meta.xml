@@ -103,10 +103,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Provider Lead - PRRM</layout>
-        <recordType>Lead.Provider_PRRM</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Provider Lead - PRRM</layout>
         <recordType>Lead.Provider_RT</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -120,10 +116,6 @@
     <layoutAssignments>
         <layout>PersonAccount-Provider - PRRM</layout>
         <recordType>PersonAccount.Provider_Base</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PersonAccount-Provider - PRRM</layout>
-        <recordType>PersonAccount.Provider_PRRM</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task - Base</layout>
