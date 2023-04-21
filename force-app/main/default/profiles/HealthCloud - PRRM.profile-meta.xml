@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>HealthCloud_Base</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>PRRM</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CareSpecialtyTaxonomy.Care_Taxonomy_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Record_Type_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Account-Business Account - Base</layout>
+        <recordType>Account.Business_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Business Account - Base</layout>
+        <recordType>Account.HealthCloudGA__IndustriesBusiness</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Community Outreach Layout - PRRM</layout>
+        <recordType>Account.Community_Outreach</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Facility - Base</layout>
+        <recordType>Account.Facility_Base</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Health Plans Layout - PRRM</layout>
+        <recordType>Account.Health_Plan</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Household - Foundations</layout>
+        <recordType>Account.HealthCloudGA__IndustriesHousehold</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountContactRelation-Account Contact Relationship - Foundations</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout - Base</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignMember-Campaign Member Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CareSpecialtyTaxonomy-Care Specialty Taxonomy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-CarePlan - Base</layout>
+        <recordType>Case.CarePlan_Base</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case - Base</layout>
+        <recordType>Case.Care_Request</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case - Base</layout>
+        <recordType>Case.General_Case_Base</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCloudGA__AccountAccountRelation__c-Acc-Acc Relationship - Base</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCloudGA__CarePlanGoal__c-Goal - Base</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCloudGA__CarePlanProblem__c-Problem - Base</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCloudGA__ContactContactRelation__c-Contact-Contact Relationship - Foundations</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCloudGA__ReciprocalRole__c-Reciprocal Role - Base</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCloudGA__ReciprocalRole__c-Reciprocal Role - Base</layout>
+        <recordType>HealthCloudGA__ReciprocalRole__c.HealthCloudGA__AccountRole</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HealthCloudGA__ReciprocalRole__c-Reciprocal Role - Base</layout>
+        <recordType>HealthCloudGA__ReciprocalRole__c.HealthCloudGA__ContactRole</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Patient Lead - Base</layout>
+        <recordType>Lead.HealthCloudGA__Patient</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Provider Lead - PRRM</layout>
+        <recordType>Lead.Provider_PRRM</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Provider Lead - PRRM</layout>
+        <recordType>Lead.Provider_RT</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Guardian%2FContact - Foundations</layout>
+        <recordType>PersonAccount.Guardian_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Patient - Foundations</layout>
+        <recordType>PersonAccount.Patient_Base</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Provider - PRRM</layout>
+        <recordType>PersonAccount.Provider_Base</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Provider - PRRM</layout>
+        <recordType>PersonAccount.Provider_PRRM</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task - Base</layout>
+        <recordType>Task.Task_Base</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Account</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>HealthCloudGA__AccountAccountRelation__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>HealthCloudGA__ReciprocalRole__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Lead</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Community_Outreach</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Health_Plan</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>HealthCloudGA__AccountAccountRelation__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>HealthCloudGA__ReciprocalRole__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Account</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Lead</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
+</Profile>
