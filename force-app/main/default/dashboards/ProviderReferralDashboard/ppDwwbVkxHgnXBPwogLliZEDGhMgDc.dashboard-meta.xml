@@ -154,7 +154,6 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>Dashboard for tracking provider referrals</description>
     <isGridLayout>true</isGridLayout>
-    <runningUser>test-6wpignc1hk3k@example.com</runningUser>
     <textColor>#000000</textColor>
     <title>Provider Referral Dashboard</title>
     <titleColor>#000000</titleColor>
