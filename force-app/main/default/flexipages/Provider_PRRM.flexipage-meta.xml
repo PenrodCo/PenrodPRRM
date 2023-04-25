@@ -323,11 +323,6 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>cardTypeConfigs</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>PersonAccountHCPConfiguration</value>
-                        </valueListItems>
-                    </valueList>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>relationshipHeaderLabel</name>
