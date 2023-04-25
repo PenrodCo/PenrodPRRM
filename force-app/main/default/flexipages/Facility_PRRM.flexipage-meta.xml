@@ -77,11 +77,6 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>cardTypeConfigs</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>AccountHCPConfiguration</value>
-                        </valueListItems>
-                    </valueList>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>relationshipHeaderLabel</name>
