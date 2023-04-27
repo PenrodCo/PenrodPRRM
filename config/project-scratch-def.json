@@ -4,7 +4,7 @@
     "edition": "Developer",
     "description": "Disposable scratch org with PRRM solution installed",
     "features": [
-        "HealthCloudAddon",
+        "HealthCloudAddOn",
         "PersonAccounts",
         "ContactsToMultipleAccounts",
         "StateAndCountryPicklist",
