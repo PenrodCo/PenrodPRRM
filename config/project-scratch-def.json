@@ -8,7 +8,8 @@
         "PersonAccounts",
         "ContactsToMultipleAccounts",
         "StateAndCountryPicklist",
-        "HealthCloudUser"
+        "HealthCloudUser",
+        "HealthCloudPNMAddOn"
     ],
     "settings": {
       "lightningExperienceSettings": {
