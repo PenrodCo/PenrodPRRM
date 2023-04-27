@@ -8,6 +8,7 @@
         "PersonAccounts",
         "ContactsToMultipleAccounts",
         "StateAndCountryPicklist",
+        "HealthCloudUser",
         "HealthCloudPNMAddOn"
     ],
     "settings": {
