@@ -7,6 +7,7 @@
       "package": "PenrodPRRM",
       "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
+      "includeProfileUserLicenses": true,
         "apexTestAccess": {
                "permissionSets": [
                    "HealthCloudPermissionSetLicense"
