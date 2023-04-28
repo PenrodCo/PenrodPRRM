@@ -1,5 +1,13 @@
 {
   "sourceApiVersion": "57.0",
+  "apexTestAccess": {
+               "permissionSets": [
+                   "HealthCloudPermissionSetLicense"
+               ],
+               "permissionSetLicenses": [
+                   "HealthCloudGA_HealthCloudPsl"
+               ]
+           }
   "packageDirectories": [
     {
       "path": "force-app",
